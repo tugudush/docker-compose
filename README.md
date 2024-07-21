@@ -1,4 +1,4 @@
-*build and run (-d for detach)
+build and run (-d for detach)
 ```
 docker compose up -d
 ```
