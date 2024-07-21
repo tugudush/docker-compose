@@ -1,6 +1,18 @@
 services:
   mongodb:
-  
-  backend:
+    image: "mongo"
+    volumes:
+      - data:/data/db
+    # environment:
+    # - name=value
+    # MONGO_INITDB_ROOT_USERNAME: tugudush
+    # MONGO_INITDB_ROOT_PASSWORD: accessdenied123
+    env_file:
+      - ./env/mongo.env
+    # networks:
+    #   - goals-net
+  # backend:
 
-  frontend:
+  # frontend:
+volumes:
+  data:
