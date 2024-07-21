@@ -5,8 +5,8 @@ services:
       - data:/data/db
     # environment:
     # - name=value
-    # MONGO_INITDB_ROOT_USERNAME: tugudush
-    # MONGO_INITDB_ROOT_PASSWORD: accessdenied123
+    # MONGO_INITDB_ROOT_USERNAME: username
+    # MONGO_INITDB_ROOT_PASSWORD: password
     env_file:
       - ./env/mongo.env      
     # networks:
